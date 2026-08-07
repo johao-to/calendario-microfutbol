@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Próximos partidos - Microfútbol Colombiano</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #17212b;
+  }
+  .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 28px 18px 40px;
+  }
+  .header {
+    background: #17212b;
+    color: white;
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 22px;
+  }
+  .header small {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: .75;
+  }
+  .header h1 { margin: 8px 0 5px; font-size: 30px; }
+  .header p { margin: 0; opacity: .85; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .card {
+    background: white;
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 0 5px 18px rgba(0,0,0,.08);
+    border: 1px solid #e4e8ec;
+  }
+  .date {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    margin-bottom: 5px;
+  }
+  .time {
+    font-size: 13px;
+    color: #66727e;
+    margin-bottom: 20px;
+  }
+  .league {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    background: #eef2f5;
+    padding: 6px 9px;
+    border-radius: 20px;
+    margin-bottom: 18px;
+  }
+  .team {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 7px 0;
+  }
+  .vs {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    color: #7a858f;
+    margin: 10px 0;
+  }
+  .venue {
+    border-top: 1px solid #e8ebee;
+    margin-top: 18px;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #596570;
+    line-height: 1.45;
+  }
+  .source {
+    text-align: center;
+    font-size: 12px;
+    color: #7a858f;
+    margin-top: 22px;
+  }
+  @media (max-width: 800px) {
+    .grid { grid-template-columns: 1fr; }
+    .header h1 { font-size: 25px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="header">
+    <small>Microfútbol colombiano 🇨🇴</small>
+    <h1>⚽ Próximos partidos</h1>
+    <p>Liga BetPlay Futsal FCF 2026</p>
+  </section>
+
+  <section class="grid">
+    <article class="card">
+      <div class="date">Sábado · 8 de agosto</div>
+      <div class="time">⏰ 7:00 p. m.</div>
+      <div class="league">LIGA BETPLAY FUTSAL FCF 2026</div>
+      <div class="team">Atlético Cauca</div>
+      <div class="vs">VS</div>
+      <div class="team">ICSIN F.C.</div>
+      <div class="venue">📍 Complejo Deportivo Popayán<br>Popayán</div>
+    </article>
+
+    <article class="card">
+      <div class="date">Domingo · 9 de agosto</div>
+      <div class="time">⏰ 10:00 a. m.</div>
+      <div class="league">LIGA BETPLAY FUTSAL FCF 2026</div>
+      <div class="team">Gremio Samario</div>
+      <div class="vs">VS</div>
+      <div class="team">Real Cartagena</div>
+      <div class="venue">📍 Coliseo Mayor<br>Santa Marta</div>
+    </article>
+
+    <article class="card">
+      <div class="date">Lunes · 10 de agosto</div>
+      <div class="time">⏰ 1:00 p. m.</div>
+      <div class="league">LIGA BETPLAY FUTSAL FCF 2026</div>
+      <div class="team">CD Vallecaucanos Futsal</div>
+      <div class="vs">VS</div>
+      <div class="team">Club Lyon de Cali</div>
+      <div class="venue">📍 Eucaris Caicedo<br>Guacarí</div>
+    </article>
+  </section>
+
+  <div class="source">
+    Programación basada en la información oficial publicada por la Federación Colombiana de Fútbol.
+  </div>
+</div>
+</body>
+</html>
